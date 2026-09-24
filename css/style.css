@@ -4,15 +4,29 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color:#000;
-}
-header img{
-    width: 200px;
-    height: 100px;
+body main img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
 }
 
-header button{
+main nav  .nav1{
+    padding-top: 150px;
+}
+
+main img{
+    display: flex;
+    width: 20em;
+    height: 10em;
+}
+main nav img{
+    width: 200px;
+    height: 100px;
+    top: -580px;
+    margin-left: -20rem;
+}
+
+main nav button{
     background-color: rgb(252, 4, 4);
     border-radius: 10px;
     border: none;
@@ -24,16 +38,23 @@ header button{
     font-weight: bold;
     font-style: normal;
     display: block;
-    top: -73px;
-    margin-left: 70rem;
+    top: -650px;
+    margin-left: 45rem;
     position: relative;
     /*push it up - increase the number to push higher*/
     cursor: pointer;
 }
 
+main .nav1{
+    position:relative;
+    top:-500px;
+    text-align: center;
+    
+}
+
 main h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     color: rgb(245, 243, 241);
     font-weight: bolder;
@@ -84,6 +105,13 @@ main button{
     position: absolute;
     margin-left: 48rem;
     top: 1.2rem;
+}
+
+.down-body{
+    background-color: black;
+    position:relative;
+    top:-450px;
+    height: 80rem;
 }
 
 .Trending{
@@ -138,6 +166,7 @@ main button{
     height: 20rem;
 }
 
+
 .faq-icons h3{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -183,4 +212,8 @@ nav button{
     background-color: rgb(255, 0, 0);
     color:rgb(252, 250, 250);
     cursor: progress;
+}
+
+footer{
+    color:white;
 }
