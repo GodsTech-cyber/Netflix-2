@@ -17,8 +17,9 @@ main nav  .nav1{
 main img{
     display: flex;
     width: 20em;
-    height: 10em;
+    
 }
+
 main nav img{
     width: 200px;
     height: 100px;
@@ -47,8 +48,9 @@ main nav button{
 
 main .nav1{
     position:relative;
-    top:-500px;
+    top:-30rem;
     text-align: center;
+    align-items: center;
     
 }
 
@@ -58,6 +60,7 @@ main h2{
     text-align: center;
     color: rgb(245, 243, 241);
     font-weight: bolder;
+    align-items: center;
 }
 
 main h4{
@@ -109,9 +112,10 @@ main button{
 
 .down-body{
     background-color: black;
-    position:relative;
-    top:-450px;
-    height: 80rem;
+    height: 72rem;
+    position:absolute;
+    top: 32rem;
+    width: 100%;
 }
 
 .Trending{
@@ -121,6 +125,10 @@ main button{
     font-weight: bold;
     color:rgb(240, 236, 236);
 } 
+
+.Trending h3{
+    margin-top: -4em;
+}
 
 .Trending img{
     margin-top: 1rem;
@@ -215,5 +223,15 @@ nav button{
 }
 
 footer{
-    color:white;
+    position: relative;
+    color:rgb(255, 254, 254);
+}
+
+footer p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+footer p a {
+    color:#1d04ff;
 }
